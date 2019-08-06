@@ -5,9 +5,23 @@ A handful of bash scripts
 
 ## Scripts:
 
-1. [Count Items](https://github.com/baduker/noob_bash/blob/master/scripts/ci.sh)
+1. [Count Items](https://github.com/baduker/noob_bash/blob/master/scripts/ci.sh):
 A simple script that counts the number of items (files) in a given folder.
 
-2. [Simulate Typing](https://github.com/baduker/noob_bash/blob/master/scripts/sim.sh) A silly script that simulates typing (just like in the movies!)
+2. [Simulate Typing](https://github.com/baduker/noob_bash/blob/master/scripts/sim.sh): A silly script that simulates typing (just like in the movies!).
 
-3. [Up](https://github.com/baduker/noob_bash/blob/master/scripts/up.sh) A one-liner version of a combine `uptime` command.
+3. [Up](https://github.com/baduker/noob_bash/blob/master/scripts/up.sh): A one-liner version of a combine `uptime` command.
+
+## Usage:
+
+You can run any of the scripts either from the directory they're located in or add them to your `PATH`. That way, a given script can be run from anywhere.
+
+### Here's how to do it.
+
++ Remove the `.sh` extension first by running this command `mv a_script.sh a_script`.
+
++ Save the script in some directory, for example `~/bin`.
+
++ Add the `~/bin` to your `PATH` by typing `export PATH=$PATH:~/bin`.
+
++ Now you can run the script from anywhere!
