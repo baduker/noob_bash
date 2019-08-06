@@ -9,3 +9,5 @@ A handful of bash scripts
 A simple script that counts the number of items (files) in a given folder.
 
 2. [Simulate Typing](https://github.com/baduker/noob_bash/blob/master/scripts/sim.sh) A silly script that simulates typing (just like in the movies!)
+
+3. [Up](https://github.com/baduker/noob_bash/blob/master/scripts/up.sh) A one-liner version of a combine `uptime` command.
