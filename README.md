@@ -12,6 +12,8 @@ A simple script that counts the number of items (files) in a given folder.
 
 3. [Up](https://github.com/baduker/noob_bash/blob/master/scripts/up.sh): A one-liner version of a combine `uptime` command.
 
+4. [Weather](https://github.com/baduker/noob_bash/blob/master/scripts/weather.sh): A super simple weather script based on the awesome [wttr.in](https://github.com/chubin/wttr.in) project!
+
 ## Usage:
 
 You can run any of the scripts either from the directory they're located in or add them to your `PATH`. That way, a given script can be run from anywhere.
