@@ -14,6 +14,8 @@ A simple script that counts the number of items (files) in a given folder.
 
 4. [Weather](https://github.com/baduker/noob_bash/blob/master/scripts/weather.sh): A super simple weather script based on the awesome [wttr.in](https://github.com/chubin/wttr.in) project!
 
+5. [Set it up](https://github.com/baduker/noob_bash/blob/master/scripts/setitup.sh): This is a personal utility script for managing newly written scripts.
+
 ## Usage:
 
 You can run any of the scripts either from the directory they're located in or add them to your `PATH`. That way, a given script can be run from anywhere.
