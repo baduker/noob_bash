@@ -18,6 +18,8 @@ A simple script that counts the number of items (files) in a given folder.
 
 6. [Remove all .html files](https://github.com/baduker/noob_bash/blob/master/scripts/rm_html.sh): Removes all .html files from the current directory.
 
+7. [Find compressed files by extension](https://github.com/baduker/noob_bash/blob/master/scripts/arch.sh)
+
 ## Usage:
 
 You can run any of the scripts either from the directory they're located in or add them to your `PATH`. That way, a given script can be run from anywhere.
