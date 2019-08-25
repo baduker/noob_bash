@@ -18,7 +18,7 @@ A simple script that counts the number of items (files) in a given folder.
 
 6. [Remove all .html files](https://github.com/baduker/noob_bash/blob/master/scripts/rm_html.sh): Removes all .html files from the current directory.
 
-7. [Find compressed files by extension](https://github.com/baduker/noob_bash/blob/master/scripts/arch.sh)
+7. [Find compressed files by extension](https://github.com/baduker/noob_bash/blob/master/scripts/arch.sh): Finds and removes compressed files (.deb, .zip, .tar, .gz) that are older than 14 days.
 
 ## Usage:
 
