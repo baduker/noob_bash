@@ -1,17 +1,8 @@
 #!/bin/bash
 
-HTML_FILE_COUNT=$(find . -maxdepth 1 -type f -name "*.html" | wc -l)
+FIND_HTML=$(find . -maxdepth 1 -type f -name "*.html")
+HTML_FILE_COUNT=$(echo $FIND_HTML | wc -l)
+DELETE_HTML=$(find . -maxdepth 1 -type f -name "*.html" -delete)
 
-echo "Remove $HTML_FILE_COUNT file(s) with .html extension (yes / no)?"
-
-echo -n "Answer: "
-read ANSWER
-
-if [[ $ANSWER = "yes" ]]; then
-    echo "$(find . -maxdepth 1 -type f -name "*.html" -delete)"
-    echo "$HTML_FILE_COUNT files have been removed!"
-elif [[ $ANSWER = "no" ]]; then
-    echo "No file has been removed!"
-else
-    echo "Unknown command!"
-fi
+echo -n "$DELETE_HTML"
+echo "Removed $HTML_FILE_COUNT file(s) with .html extension."
