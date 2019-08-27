@@ -1,13 +1,20 @@
 #!/usr/bin/env python
 
+
 import os
+import argparse
 
 
 CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 SPECIAL_CHARS = "!@#$%_"
 NUMBERS = "1234567890"
 ALL = CHARS + NUMBERS + SPECIAL_CHARS
-LENGHT = 8
+
+parser = argparse.ArgumentParser()
+parser.add_argument("l", nargs="?", type=int, \
+                    help="Password length.", default=8)
+args = parser.parse_args()
+LENGHT = args.l
 
 
 def generate_random_password():
