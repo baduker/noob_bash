@@ -4,4 +4,4 @@
 
 # If you don't have xclip just do: sudo apt-get install xclip
 
-$python ./gen_pass.py | xclip -selection clipboard
+$python gen_pass.py | xclip -selection clipboard
