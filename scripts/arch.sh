@@ -5,7 +5,7 @@ COUNT_LINES=$(echo $FIND_COMPRESSED | wc -l)
 DELETE_FILES=$(find . -maxdepth 1 -type f -iname "*.deb" -or -iname "*.zip" -or -iname "*.tar" -or -iname "*.gz" -delete )
 
 if [[ $COUNT_LINES -eq 1 ]]; then
-    echo "No archived files found!"
+    echo "No archived files older than 14 days found!"
 fi
 
 if [[ $COUNT_LINES -gt 1 ]]; then
