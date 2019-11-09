@@ -23,6 +23,9 @@ A simple script that counts the number of items (files) in a given folder.
 8. [Generate a temporary random password](https://github.com/baduker/noob_bash/blob/master/scripts/genpass/genpass.sh): The bash files is a wrapper for a Python script that generates a random 8-character long password
 
 9. [Trim the bash prompt working directory](https://github.com/baduker/noob_bash/blob/master/scripts/trim_pwd.py): A small python script that trims the bash prompt's working directory.
+
+10. [List directories sorted by size](https://github.com/baduker/noob_bash/blob/master/scripts/genpass/by_size.sh): The following bash script will accept 2 arguments. First argument will be a directory name in which we will start our search and the second argument will by a number of directories the script should output.
+
 ## Usage:
 
 You can run any of the scripts either from the directory they're located in or add them to your `PATH`. That way, a given script can be run from anywhere.
